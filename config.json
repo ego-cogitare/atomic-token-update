@@ -1,0 +1,23 @@
+{
+  "selenium": {
+    "url": "http://167.71.42.54:4444/wd/hub",
+    "capabilities": {
+      "browserName": "chrome",
+      "version": "95.0",
+      "enableVNC": true,
+      "enableVideo": false,
+      "maximized": true
+    }
+  },
+  "mysql": {
+    "host": "165.22.29.17",
+    "port": "3306",
+    "database": "dex",
+    "user": "root",
+    "password": "AsB{D]@xbX9Ch3n"
+  },
+  "beanstalkd": {
+    "host": "165.22.29.17",
+    "port": 11300
+  }
+}
