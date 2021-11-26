@@ -27,7 +27,6 @@ const sleep = (sleep) => {
         process.exit(-1);
     }
 
-    // beanstalk.publishMessage({account: 'jhque.wam'});
     while (true) {
         try {
             const {id, payload} = await new Promise(async (resolve, reject) => {
